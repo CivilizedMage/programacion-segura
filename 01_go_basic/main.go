@@ -1,9 +1,12 @@
-package main
-
 import (
 	"fmt"
 )
 
 func main() {
-	fmt.Println("Hola Mundo")
+    var mundo = "Mundo ok"
+    const var_const = "constante"
+
+    fmt.Print("hola mundo")
+	fmt.Printf("hola %v\n", mundo)
+	fmt.Println("hello",var_const)
 }
